@@ -1631,7 +1631,8 @@ input, select, textarea {
 		}
 
 		#content a {
-			color: #ED391B;
+			color: #004D65;
+            /* color: #ED391B;   ! Modified by KTS */
 		}
 
 		#content header {
