@@ -1397,6 +1397,44 @@ input, select, textarea {
 			border-bottom: 0 !important;
 		}
 
+    .people-list li {
+        padding: 1em 0 1em 0;
+        overflow: hidden;
+    }
+
+        .people-list li:first-child {
+            padding-top: 0 !important;
+            border-top: 0 !important;
+        }
+
+        .people-list li:last-child {
+            padding-bottom: 0 !important;
+            border-bottom: 0 !important;
+        }
+
+        .people-list li img {
+            float: left;
+        }
+
+        .people-list li p {
+            margin: -5px 0 0 90px;
+            font-size: 1.0em;
+            /*font-style: italic;*/
+        }
+
+        .people-list li q {
+            font-size: 0.9em;
+            /*font-style: italic;*/
+        }
+
+        .people-list li span {
+            display: block;
+            margin: 0px 0 5px 90px;
+            font-size: 0.9em;
+            font-weight: 400;
+            line-height: 1.3em;
+        }
+
 	.quote-list li {
 		padding: 1em 0 1em 0;
 		overflow: hidden;
@@ -1513,7 +1551,8 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #3B4346 url("images/bg01.jpg");
+        /* background: #3B4346 url("images/bg01.jpg"); */
+        background: #004D65 url("images/bg01.png");
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
