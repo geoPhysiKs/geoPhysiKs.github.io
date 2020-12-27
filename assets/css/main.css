@@ -1397,6 +1397,14 @@ input, select, textarea {
 			border-bottom: 0 !important;
 		}
 
+            .link-list li i {
+                font-style: italic;
+            }
+
+            .link-list li b {
+                font-weight: bold;
+            }
+
     .people-list li {
         padding: 1em 0 1em 0;
         overflow: hidden;
@@ -1551,7 +1559,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-        /* background: #3B4346 url("images/bg01.jpg"); */
+        /*background: #3B4346 url("images/bg01.jpg");*/
         background: #004D65 url("images/bg01.png");
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
@@ -2006,7 +2014,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 11pt;
 				line-height: 1.4em;
 			}
 
@@ -2017,7 +2025,7 @@ input, select, textarea {
 			}
 
             .people-list li {
-                font-size: 0.8em;
+                font-size: 1em;
             }
 
             .quote-list li p {
