@@ -1405,6 +1405,11 @@ input, select, textarea {
                 font-weight: bold;
             }
 
+            .link-list li sub {
+                vertical-align: sub;
+                font-size: smaller;
+            }
+
 /* Indented reference listing: added by KTS */
     .publication {
         margin: 0.0px 0.0px 6.0px 40.0px;
@@ -1432,7 +1437,7 @@ input, select, textarea {
         }
 
         .people-list li p {
-            margin: -5px 0 0 90px;
+            margin: -5px 0 0 110px;
             font-size: 1.0em;
             /*font-style: italic;*/
         }
@@ -1627,7 +1632,7 @@ input, select, textarea {
 		}
 
 		#banner p {
-			font-size: 2em;
+			font-size: 1.5em;
 			font-weight: 200;
 			line-height: 1.25em;
 			padding-right: 1em;
@@ -1637,8 +1642,9 @@ input, select, textarea {
 /* Features */
 
 	#features {
-		/*background: #353D40 url("images/bg02.jpg");*/
-        background: #084A5E url("images/bg02.png");
+		/* background: #353D40 url("images/bg02.jpg"); */
+        /* background: #084A5E url("images/bg02.png"); */
+        background: #084A5E url("images/bg04jpg.png");
 		border-bottom: solid 1px #272e31;
 		padding: 45px 0 45px 0;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
